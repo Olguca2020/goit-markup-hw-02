@@ -27,6 +27,17 @@ a {text-decoration: none;}
 
  .contact-list {}
 
- .contact-mail {}
+ .contact-mail {
+   color: #434455;
+   cursor: pointer;
+ }
 
- .contact-tel {}
+ .contact-tel {
+   cursor: pointer;
+   color: #434455
+ }
+ .contact-mail:hover,
+ .contact-mail:focus{
+   color: #404BBF;
+   }
+ 
