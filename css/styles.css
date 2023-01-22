@@ -1,20 +1,40 @@
 ul {list-style: none;}
 a {text-decoration: none;}
+:root {
+   --color-iris: #4d5ae5;
+   --color-ocean: #404bbf;
+   --color-navy-blue: #2e2f42;
+   --color-green: #31d0aa;
+   --color-slate: #434455;
+   --color-light-slate: #8e8f99;
+   --color-cornflower: #e7e9fc;
+   --color-cloud: #f4f4fd;
+   --color-navy-blue-modal: #2e2f42;
+   --color-grey: #2e2f42;}
+   /* ======BODY====== */
 
 /* ===== header ===== */
-.header-nav link.current {
-   color: #404BBF;
+.header-nav link.current {color: #404BBF;}
+.logo-web {color: var(--color-iris);}
+.header {
+   
 }
-.header {}
 
  .header-nav {
    
  }
 
- .header-logo {}
+ .header-logo {
+   color: var(--color-navy-blue);
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: calc(24/18);
+ }
 
  .link {
-    color: 2E2F42
+    color: var(--color-navy-blue-modal)
  }
 
  .header-list {}
@@ -22,22 +42,22 @@ a {text-decoration: none;}
  .header-item {}
  .header-item:hover,
  .header-item:focus{
-    color: #404BBF;
+    color: var(--color-ocean);
  }
 
  .contact-list {}
 
  .contact-mail {
-   color: #434455;
+   color: var(--color-light-slate);
    cursor: pointer;
  }
 
  .contact-tel {
    cursor: pointer;
-   color: #434455
+   color: var(--color-light-slate);
  }
  .contact-mail:hover,
  .contact-mail:focus{
-   color: #404BBF;
+   color: var(--color-ocean);
    }
  
