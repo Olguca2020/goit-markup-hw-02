@@ -228,8 +228,6 @@ body {
 }
 /* ===section=== */
 
-.section1 {}
-
 .secnion-list {}
 
 .section-item {}
@@ -252,6 +250,3 @@ body {
     color: var(--color-slate);
 }
 
-.section2 {}
-
-.section3 {}
