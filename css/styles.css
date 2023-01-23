@@ -15,9 +15,10 @@ a {text-decoration: none;}
    /* ======BODY====== */
 body {
   font-family: Roboto, sans-serif;
+  color: var(--color-slate);
 }
 /* ===== HEADER ===== */
-.header-item.current {color: #404BBF;}
+.header-item.current {color: var(--color-ocean);}
 .logo-web {color: var(--color-iris);}
 .header {   
 }
@@ -26,14 +27,14 @@ body {
  }
 
  .logo {   
-   font-family: 'Raleway';
-   font-style: normal;
+   font-family: 'Raleway'; 
+   letter-spacing: 0.03em;
    font-weight: 800;
    font-size: 18px;
    line-height: calc(24/18);
  }
  .header .logo{
-  color: var(--color-navy-blue);  
+   color: var(--color-navy-blue);
  }
 
  .link {
@@ -47,7 +48,7 @@ body {
  .header-item {
     font-weight: 500;
     font-size: 16px;
-    line-height: calc (24/16);
+    line-height: calc(24/16);
     letter-spacing: 0.02em;  
     color: var(--color-navy-blue-modal);
  }
@@ -55,17 +56,17 @@ body {
  .header-item:focus{
     color: var(--color-ocean);
  }
-
+ .header-contact {
+   font-style:normal;
+ }
  .contact-list {}
 
  .contact-mail,
- .contact-tel {
-  font-weight: 400;
+ .contact-tel {  
   font-size: 16px;
-  line-height: calc (24/16);
+  line-height: calc(24/16);
   letter-spacing: 0.02em;  
-  color: var(--color-slate);
-  cursor: pointer;
+  
  } 
  .contact-mail:hover,
  .contact-mail:focus,
@@ -79,9 +80,8 @@ body {
      }
   
      .hero-title {      
-        font-weight: 700;
         font-size: 56px;
-        line-height: cal(60/56);
+        line-height: calc(60/56);
         text-align: center;
         letter-spacing: 0.02em;      
         color:var(--color-whit) ;
@@ -93,11 +93,10 @@ body {
       border-radius: 4px;
       font-weight: 500;
       font-size: 16px;
-      line-height: cal(24/16);
-      display: flex;
-      align-items: center;
+      line-height: calc(24/16);      
       letter-spacing: 0.04em;      
       color: var(--color-whit);
+      cursor: pointer;
      }
      /* =====ABOUT===== */
   
@@ -122,15 +121,12 @@ body {
      }
   
      .about-descr {    
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(16/24);      
-    letter-spacing: 0.02em;
-    color: var(--color-slate);
+    letter-spacing: 0.02em;    
      } 
      /* ====common====== */
-     .sectionName{      
-        font-weight: 700;
+     .sectionName{         
         font-size: 36px;
         line-height: calc(40/36);        
         text-align: center;
@@ -182,13 +178,12 @@ body {
       color: var(--color-navy-blue-modal);
      }
   
-     .team-proffesion {
-        font-weight: 400;
+     .team-proffesion {        
         font-size: 16px;
         line-height: calc(24/16);        
         text-align: center;
-        letter-spacing: 0.02em;      
-        color: var(--color-slate);
+        letter-spacing: 0.02em;     
+        
      }
  /* ======FOOTER========== */
  .footer{
@@ -197,10 +192,9 @@ body {
  .footer .logo {
   color: var(--color-cloud)
  }
-.footer-text{
-    font-weight: 400;
+.footer-text{    
     font-size: 16px;
-    line-height: calc (24/16);
+    line-height: calc(24/16);
     letter-spacing: 0.02em;  
     color: var(--color-cornflower);
 }
@@ -211,13 +205,11 @@ body {
 .portfolio-item {}
 
 .portfolio-btn {
+   font-family: inherit;
     background: var(--color-cloud);  
     font-weight: 500;
     font-size: 16px;
-    line-height: calc (24/16);    
-    display: flex;
-    align-items: center;
-    text-align: center;
+    line-height: calc (24/16);       
     letter-spacing: 0.04em;  
     color: var(--color-iris);
 }
@@ -235,18 +227,16 @@ body {
 .section-img {}
 
 .section-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: calc(24/20);    
-    letter-spacing: 0.02em;
-    color: var(--color-grey);
+   font-size: 16px;
+   line-height: calc(24/16);
+   letter-spacing: 0.02em;
 }
 
-.section-kind {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: calc(24/16);    
-    letter-spacing: 0.02em;
-    color: var(--color-slate);
+.section-kind { 
+      font-weight: 500;
+      font-size: 20px;
+      line-height: calc(24/20);
+      letter-spacing: 0.02em;
+      color: var(--color-grey);        
 }
 
