@@ -27,11 +27,14 @@ body {
  }
 
  .logo {   
-   font-family: 'Raleway'; 
+   font-family: 'Raleway', sans-serif;
    letter-spacing: 0.03em;
    font-weight: 800;
    font-size: 18px;
    line-height: calc(24/18);
+ }
+ .logo.link {
+   text-transform: uppercase;
  }
  .header .logo{
    color: var(--color-navy-blue);
@@ -46,8 +49,7 @@ body {
  }
 
  .header-item {
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 500;    
     line-height: calc(24/16);
     letter-spacing: 0.02em;  
     color: var(--color-navy-blue-modal);
@@ -62,8 +64,8 @@ body {
  .contact-list {}
 
  .contact-mail,
- .contact-tel {  
-  font-size: 16px;
+ .contact-tel { 
+  color: var(--color-slate);   
   line-height: calc(24/16);
   letter-spacing: 0.02em;   
  } 
@@ -87,6 +89,7 @@ body {
      }
   
      .hero-btn {
+      font-family: 'Roboto', sans-serif;
       background: var(--color-iris);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
       border-radius: 4px;
@@ -97,6 +100,10 @@ body {
       color: var(--color-whit);
       cursor: pointer;
      }
+        .hero-btn:hover,
+        .hero-btn:hover{
+         background-color: var(--color-ocean);
+        }
      /* =====ABOUT===== */
   
      .about {
@@ -119,8 +126,7 @@ body {
     color: var(--color-grey);
      }
   
-     .about-descr {    
-    font-size: 16px;
+     .about-descr {     
     line-height: calc(16/24);      
     letter-spacing: 0.02em;    
      } 
@@ -177,8 +183,7 @@ body {
       color: var(--color-navy-blue-modal);
      }
   
-     .team-proffesion {        
-        font-size: 16px;
+     .team-proffesion {         
         line-height: calc(24/16);        
         text-align: center;
         letter-spacing: 0.02em;     
@@ -189,10 +194,10 @@ body {
   background-color: var(--color-navy-blue);
  }
  .footer .logo {
-  color: var(--color-cloud)
+  color: var(--color-cloud);
+  text-transform: uppercase;
  }
-.footer-text{    
-    font-size: 16px;
+.footer-text{     
     line-height: calc(24/16);
     letter-spacing: 0.02em;  
     color: var(--color-cornflower);
@@ -208,7 +213,7 @@ body {
     background: var(--color-cloud);  
     font-weight: 500;
     font-size: 16px;
-    line-height: calc (24/16);       
+    line-height: calc(24/16);       
     letter-spacing: 0.04em;  
     color: var(--color-iris);
 }
@@ -225,8 +230,7 @@ body {
 
 .section-img {}
 
-.section-subtitle {
-   font-size: 16px;
+.section-subtitle {  
    line-height: calc(24/16);
    letter-spacing: 0.02em;
 }
